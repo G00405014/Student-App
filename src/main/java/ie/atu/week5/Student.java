@@ -5,6 +5,14 @@ public class Student {
     private String email;
     private String course;
 
+    public Student(String name, String email, String course) { // Calling the classes already created
+        this.name = name;
+        this.email = email;
+        this.course = course;
+    }
+
+}
+
     public String getName() {
         return name;
     }
